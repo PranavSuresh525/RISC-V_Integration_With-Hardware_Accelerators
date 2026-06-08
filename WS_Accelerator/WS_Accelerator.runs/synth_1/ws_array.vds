@@ -1,0 +1,363 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Sat Jun  6 12:27:25 2026
+# Process ID         : 50824
+# Current directory  : C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.runs/synth_1
+# Command line       : vivado.exe -log ws_array.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ws_array.tcl
+# Log file           : C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.runs/synth_1/ws_array.vds
+# Journal file       : C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.runs/synth_1\vivado.jou
+# Running On         : Pranav_Suresh
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 7 8840U w/ Radeon 780M Graphics      
+# CPU Frequency      : 3294 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16398 MB
+# Swap memory        : 24696 MB
+# Total Virtual      : 41094 MB
+# Available Virtual  : 12458 MB
+#-----------------------------------------------------------
+source ws_array.tcl -notrace
+create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 555.949 ; gain = 222.148
+Command: synth_design -top ws_array -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 6116
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1097.414 ; gain = 537.484
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ws_array' [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/ws_array.v:22]
+INFO: [Synth 8-6157] synthesizing module 'pe' [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/pe.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'pe' (0#1) [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/pe.v:22]
+INFO: [Synth 8-6157] synthesizing module 'fifo' [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/fifo.v:2]
+	Parameter DEPTH bound to: 1 - type: integer 
+	Parameter WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fifo' (0#1) [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/fifo.v:2]
+INFO: [Synth 8-6157] synthesizing module 'fifo__parameterized0' [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/fifo.v:2]
+	Parameter DEPTH bound to: 2 - type: integer 
+	Parameter WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fifo__parameterized0' (0#1) [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/fifo.v:2]
+INFO: [Synth 8-6157] synthesizing module 'fifo__parameterized1' [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/fifo.v:2]
+	Parameter DEPTH bound to: 3 - type: integer 
+	Parameter WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fifo__parameterized1' (0#1) [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/fifo.v:2]
+INFO: [Synth 8-6157] synthesizing module 'fifo__parameterized2' [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/fifo.v:2]
+	Parameter DEPTH bound to: 4 - type: integer 
+	Parameter WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fifo__parameterized2' (0#1) [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/fifo.v:2]
+INFO: [Synth 8-6157] synthesizing module 'fifo__parameterized3' [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/fifo.v:2]
+	Parameter DEPTH bound to: 5 - type: integer 
+	Parameter WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fifo__parameterized3' (0#1) [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/fifo.v:2]
+INFO: [Synth 8-6157] synthesizing module 'fifo__parameterized4' [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/fifo.v:2]
+	Parameter DEPTH bound to: 6 - type: integer 
+	Parameter WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fifo__parameterized4' (0#1) [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/fifo.v:2]
+INFO: [Synth 8-6157] synthesizing module 'fifo__parameterized5' [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/fifo.v:2]
+	Parameter DEPTH bound to: 7 - type: integer 
+	Parameter WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fifo__parameterized5' (0#1) [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/fifo.v:2]
+INFO: [Synth 8-6157] synthesizing module 'fifo__parameterized6' [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/fifo.v:2]
+	Parameter DEPTH bound to: 7 - type: integer 
+	Parameter WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fifo__parameterized6' (0#1) [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/fifo.v:2]
+INFO: [Synth 8-6157] synthesizing module 'fifo__parameterized7' [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/fifo.v:2]
+	Parameter DEPTH bound to: 6 - type: integer 
+	Parameter WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fifo__parameterized7' (0#1) [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/fifo.v:2]
+INFO: [Synth 8-6157] synthesizing module 'fifo__parameterized8' [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/fifo.v:2]
+	Parameter DEPTH bound to: 5 - type: integer 
+	Parameter WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fifo__parameterized8' (0#1) [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/fifo.v:2]
+INFO: [Synth 8-6157] synthesizing module 'fifo__parameterized9' [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/fifo.v:2]
+	Parameter DEPTH bound to: 4 - type: integer 
+	Parameter WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fifo__parameterized9' (0#1) [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/fifo.v:2]
+INFO: [Synth 8-6157] synthesizing module 'fifo__parameterized10' [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/fifo.v:2]
+	Parameter DEPTH bound to: 3 - type: integer 
+	Parameter WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fifo__parameterized10' (0#1) [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/fifo.v:2]
+INFO: [Synth 8-6157] synthesizing module 'fifo__parameterized11' [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/fifo.v:2]
+	Parameter DEPTH bound to: 2 - type: integer 
+	Parameter WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fifo__parameterized11' (0#1) [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/fifo.v:2]
+INFO: [Synth 8-6157] synthesizing module 'fifo__parameterized12' [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/fifo.v:2]
+	Parameter DEPTH bound to: 1 - type: integer 
+	Parameter WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'fifo__parameterized12' (0#1) [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/fifo.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'ws_array' (0#1) [C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sources_1/new/ws_array.v:22]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1223.441 ; gain = 663.512
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1223.441 ; gain = 663.512
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1223.441 ; gain = 663.512
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1223.441 ; gain = 663.512
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   16 Bit       Adders := 64    
++---Registers : 
+	               16 Bit    Registers := 92    
+	                8 Bit    Registers := 156   
++---Muxes : 
+	   2 Input   16 Bit        Muxes := 64    
+	   2 Input    8 Bit        Muxes := 64    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 1461.258 ; gain = 901.328
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:28 . Memory (MB): peak = 1477.277 ; gain = 917.348
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 1519.309 ; gain = 959.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:37 . Memory (MB): peak = 1705.289 ; gain = 1145.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:37 . Memory (MB): peak = 1705.289 ; gain = 1145.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:37 . Memory (MB): peak = 1705.289 ; gain = 1145.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:38 . Memory (MB): peak = 1705.289 ; gain = 1145.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:38 . Memory (MB): peak = 1705.289 ; gain = 1145.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:38 . Memory (MB): peak = 1705.289 ; gain = 1145.359
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+---------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                                                | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+---------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|ws_array    | fifo_in_gen[4].in_fifo/fifo_reg_reg[3][7]               | 4      | 8     | YES          | NO                 | YES               | 8      | 0       | 
+|ws_array    | fifo_in_gen[5].in_fifo/fifo_reg_reg[4][7]               | 5      | 8     | YES          | NO                 | YES               | 8      | 0       | 
+|ws_array    | fifo_in_gen[6].in_fifo/fifo_reg_reg[5][7]               | 6      | 8     | YES          | NO                 | YES               | 8      | 0       | 
+|ws_array    | fifo_in_gen[7].in_fifo/fifo_reg_reg[6][7]               | 7      | 8     | YES          | NO                 | YES               | 8      | 0       | 
+|ws_array    | fifo_out_gen[0].other_cols.out_fifo/fifo_reg_reg[6][15] | 7      | 16    | YES          | NO                 | YES               | 16     | 0       | 
+|ws_array    | fifo_out_gen[1].other_cols.out_fifo/fifo_reg_reg[5][15] | 6      | 16    | YES          | NO                 | YES               | 16     | 0       | 
+|ws_array    | fifo_out_gen[2].other_cols.out_fifo/fifo_reg_reg[4][15] | 5      | 16    | YES          | NO                 | YES               | 16     | 0       | 
+|ws_array    | fifo_out_gen[3].other_cols.out_fifo/fifo_reg_reg[3][15] | 4      | 16    | YES          | NO                 | YES               | 16     | 0       | 
++------------+---------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |   992|
+|3     |LUT2   |  2136|
+|4     |LUT3   |  1232|
+|5     |LUT4   |  1656|
+|6     |LUT5   |   384|
+|7     |LUT6   |  1664|
+|8     |SRL16E |    96|
+|9     |FDCE   |  2230|
+|10    |FDRE   |    96|
+|11    |IBUF   |   132|
+|12    |OBUF   |   128|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------------------------------------+----------------------+------+
+|      |Instance                                |Module                |Cells |
++------+----------------------------------------+----------------------+------+
+|1     |top                                     |                      | 10747|
+|2     |  \fifo_in_gen[1].in_fifo               |fifo                  |    87|
+|3     |  \fifo_in_gen[2].in_fifo               |fifo__parameterized0  |    95|
+|4     |  \fifo_in_gen[3].in_fifo               |fifo__parameterized1  |   103|
+|5     |  \fifo_in_gen[4].in_fifo               |fifo__parameterized2  |   111|
+|6     |  \fifo_in_gen[5].in_fifo               |fifo__parameterized3  |   111|
+|7     |  \fifo_in_gen[6].in_fifo               |fifo__parameterized4  |   111|
+|8     |  \fifo_in_gen[7].in_fifo               |fifo__parameterized5  |   111|
+|9     |  \fifo_out_gen[0].other_cols.out_fifo  |fifo__parameterized6  |    64|
+|10    |  \fifo_out_gen[1].other_cols.out_fifo  |fifo__parameterized7  |    64|
+|11    |  \fifo_out_gen[2].other_cols.out_fifo  |fifo__parameterized8  |    64|
+|12    |  \fifo_out_gen[3].other_cols.out_fifo  |fifo__parameterized9  |    64|
+|13    |  \fifo_out_gen[4].other_cols.out_fifo  |fifo__parameterized10 |    48|
+|14    |  \fifo_out_gen[5].other_cols.out_fifo  |fifo__parameterized11 |    32|
+|15    |  \fifo_out_gen[6].other_cols.out_fifo  |fifo__parameterized12 |    16|
+|16    |  \row_gen[0].col_gen[0].pe_inst        |pe                    |   267|
+|17    |  \row_gen[0].col_gen[1].pe_inst        |pe_0                  |   173|
+|18    |  \row_gen[0].col_gen[2].pe_inst        |pe_1                  |   173|
+|19    |  \row_gen[0].col_gen[3].pe_inst        |pe_2                  |   173|
+|20    |  \row_gen[0].col_gen[4].pe_inst        |pe_3                  |   173|
+|21    |  \row_gen[0].col_gen[5].pe_inst        |pe_4                  |   173|
+|22    |  \row_gen[0].col_gen[6].pe_inst        |pe_5                  |   165|
+|23    |  \row_gen[0].col_gen[7].pe_inst        |pe_6                  |    71|
+|24    |  \row_gen[1].col_gen[0].pe_inst        |pe_7                  |   158|
+|25    |  \row_gen[1].col_gen[1].pe_inst        |pe_8                  |   158|
+|26    |  \row_gen[1].col_gen[2].pe_inst        |pe_9                  |   158|
+|27    |  \row_gen[1].col_gen[3].pe_inst        |pe_10                 |   158|
+|28    |  \row_gen[1].col_gen[4].pe_inst        |pe_11                 |   158|
+|29    |  \row_gen[1].col_gen[5].pe_inst        |pe_12                 |   158|
+|30    |  \row_gen[1].col_gen[6].pe_inst        |pe_13                 |   150|
+|31    |  \row_gen[1].col_gen[7].pe_inst        |pe_14                 |    71|
+|32    |  \row_gen[2].col_gen[0].pe_inst        |pe_15                 |   158|
+|33    |  \row_gen[2].col_gen[1].pe_inst        |pe_16                 |   158|
+|34    |  \row_gen[2].col_gen[2].pe_inst        |pe_17                 |   158|
+|35    |  \row_gen[2].col_gen[3].pe_inst        |pe_18                 |   158|
+|36    |  \row_gen[2].col_gen[4].pe_inst        |pe_19                 |   158|
+|37    |  \row_gen[2].col_gen[5].pe_inst        |pe_20                 |   158|
+|38    |  \row_gen[2].col_gen[6].pe_inst        |pe_21                 |   150|
+|39    |  \row_gen[2].col_gen[7].pe_inst        |pe_22                 |    71|
+|40    |  \row_gen[3].col_gen[0].pe_inst        |pe_23                 |   158|
+|41    |  \row_gen[3].col_gen[1].pe_inst        |pe_24                 |   158|
+|42    |  \row_gen[3].col_gen[2].pe_inst        |pe_25                 |   158|
+|43    |  \row_gen[3].col_gen[3].pe_inst        |pe_26                 |   158|
+|44    |  \row_gen[3].col_gen[4].pe_inst        |pe_27                 |   158|
+|45    |  \row_gen[3].col_gen[5].pe_inst        |pe_28                 |   158|
+|46    |  \row_gen[3].col_gen[6].pe_inst        |pe_29                 |   150|
+|47    |  \row_gen[3].col_gen[7].pe_inst        |pe_30                 |    71|
+|48    |  \row_gen[4].col_gen[0].pe_inst        |pe_31                 |   158|
+|49    |  \row_gen[4].col_gen[1].pe_inst        |pe_32                 |   158|
+|50    |  \row_gen[4].col_gen[2].pe_inst        |pe_33                 |   158|
+|51    |  \row_gen[4].col_gen[3].pe_inst        |pe_34                 |   158|
+|52    |  \row_gen[4].col_gen[4].pe_inst        |pe_35                 |   158|
+|53    |  \row_gen[4].col_gen[5].pe_inst        |pe_36                 |   158|
+|54    |  \row_gen[4].col_gen[6].pe_inst        |pe_37                 |   150|
+|55    |  \row_gen[4].col_gen[7].pe_inst        |pe_38                 |    71|
+|56    |  \row_gen[5].col_gen[0].pe_inst        |pe_39                 |   158|
+|57    |  \row_gen[5].col_gen[1].pe_inst        |pe_40                 |   158|
+|58    |  \row_gen[5].col_gen[2].pe_inst        |pe_41                 |   158|
+|59    |  \row_gen[5].col_gen[3].pe_inst        |pe_42                 |   158|
+|60    |  \row_gen[5].col_gen[4].pe_inst        |pe_43                 |   158|
+|61    |  \row_gen[5].col_gen[5].pe_inst        |pe_44                 |   158|
+|62    |  \row_gen[5].col_gen[6].pe_inst        |pe_45                 |   150|
+|63    |  \row_gen[5].col_gen[7].pe_inst        |pe_46                 |    71|
+|64    |  \row_gen[6].col_gen[0].pe_inst        |pe_47                 |   158|
+|65    |  \row_gen[6].col_gen[1].pe_inst        |pe_48                 |   158|
+|66    |  \row_gen[6].col_gen[2].pe_inst        |pe_49                 |   158|
+|67    |  \row_gen[6].col_gen[3].pe_inst        |pe_50                 |   158|
+|68    |  \row_gen[6].col_gen[4].pe_inst        |pe_51                 |   158|
+|69    |  \row_gen[6].col_gen[5].pe_inst        |pe_52                 |   158|
+|70    |  \row_gen[6].col_gen[6].pe_inst        |pe_53                 |   150|
+|71    |  \row_gen[6].col_gen[7].pe_inst        |pe_54                 |    71|
+|72    |  \row_gen[7].col_gen[0].pe_inst        |pe_55                 |   139|
+|73    |  \row_gen[7].col_gen[1].pe_inst        |pe_56                 |   139|
+|74    |  \row_gen[7].col_gen[2].pe_inst        |pe_57                 |   139|
+|75    |  \row_gen[7].col_gen[3].pe_inst        |pe_58                 |   139|
+|76    |  \row_gen[7].col_gen[4].pe_inst        |pe_59                 |   139|
+|77    |  \row_gen[7].col_gen[5].pe_inst        |pe_60                 |   139|
+|78    |  \row_gen[7].col_gen[6].pe_inst        |pe_61                 |   131|
+|79    |  \row_gen[7].col_gen[7].pe_inst        |pe_62                 |    52|
++------+----------------------------------------+----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:38 . Memory (MB): peak = 1705.289 ; gain = 1145.359
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:00:38 . Memory (MB): peak = 1705.289 ; gain = 1145.359
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:38 . Memory (MB): peak = 1705.289 ; gain = 1145.359
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.346 . Memory (MB): peak = 1724.566 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 992 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1853.812 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 231ea00f
+INFO: [Common 17-83] Releasing license: Synthesis
+44 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:40 ; elapsed = 00:00:48 . Memory (MB): peak = 1853.812 ; gain = 1297.863
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.067 . Memory (MB): peak = 1853.812 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.runs/synth_1/ws_array.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file ws_array_utilization_synth.rpt -pb ws_array_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Jun  6 12:28:29 2026...

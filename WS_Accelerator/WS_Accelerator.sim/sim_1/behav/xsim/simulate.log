@@ -1,0 +1,9 @@
+Time resolution is 1 ps
+[TB] Loading weights...
+[TB] Streaming Data...
+
+=======================================================
+✅ SUCCESS! All operations match perfectly.
+=======================================================
+
+$finish called at time : 88 ns : File "C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sim_1/new/ws_array_tb.v" Line 141
