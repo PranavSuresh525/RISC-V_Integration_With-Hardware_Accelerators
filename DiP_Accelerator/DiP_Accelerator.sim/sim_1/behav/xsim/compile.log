@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Pranav_Folder/Verilog/DiP_Accelerator/DiP_Accelerator.srcs/sources_1/new/dip_array.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dip_array
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Pranav_Folder/Verilog/DiP_Accelerator/DiP_Accelerator.srcs/sources_1/new/pe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pe
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Pranav_Folder/Verilog/DiP_Accelerator/DiP_Accelerator.srcs/sim_1/new/dip_array_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dip_tb

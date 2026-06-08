@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov 14 2025
+19:37:27
+C:/Pranav_Folder/Verilog/DiP_Accelerator/DiP_Accelerator.sim/sim_1/behav/xsim/glbl.v,1756381829,verilog,,,,glbl,,uvm,,,,,,
+C:/Pranav_Folder/Verilog/DiP_Accelerator/DiP_Accelerator.srcs/sim_1/new/dip_array_tb.v,1780728362,systemVerilog,,C:/Pranav_Folder/Verilog/DiP_Accelerator/DiP_Accelerator.srcs/sources_1/new/pe.v,,dip_tb,,uvm,../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Pranav_Folder/Verilog/DiP_Accelerator/DiP_Accelerator.srcs/sources_1/new/dip_array.v,1780728452,systemVerilog,,C:/Pranav_Folder/Verilog/DiP_Accelerator/DiP_Accelerator.srcs/sources_1/new/pe.v,,dip_array,,uvm,../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Pranav_Folder/Verilog/DiP_Accelerator/DiP_Accelerator.srcs/sources_1/new/pe.v,1780728362,systemVerilog,,C:/Pranav_Folder/Verilog/DiP_Accelerator/DiP_Accelerator.srcs/sim_1/new/dip_array_tb.v,,pe,,uvm,../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,
+C:/Pranav_Folder/Verilog/WS_Accelerator/WS_Accelerator.srcs/sim_1/new/pe_tb.v,1780727076,systemVerilog,,,,pe_tb,,uvm,../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef,,,,,

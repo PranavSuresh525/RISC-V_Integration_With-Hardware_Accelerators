@@ -1,0 +1,10 @@
+Time resolution is 1 ps
+[TB] Loading Permuted Weights...
+[TB] Streaming Unskewed Data Rows...
+
+=======================================================
+✅ SUCCESS! All 512 operations match perfectly.
+✅ True DiP Architecture verified.
+=======================================================
+
+$finish called at time : 56 ns : File "C:/Pranav_Folder/Verilog/DiP_Accelerator/DiP_Accelerator.srcs/sim_1/new/dip_array_tb.v" Line 151
